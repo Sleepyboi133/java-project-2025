@@ -7,11 +7,12 @@
     - print
     -printf
     -sort
-3- make importable in vs
-4- make tostring with a dict of functions and uses
-5- test
+3- make a packege version
+4- make importable in vs
+5- make tostring with a dict of functions and uses
+6- test
 
-6- YYYYAAAAAAAAAAAYYYYYYYYYY
+7- YYYYAAAAAAAAAAAYYYYYYYYYY
 
 */
 
