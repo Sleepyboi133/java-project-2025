@@ -22,6 +22,17 @@ public class Printer {
         System.out.println(result.toString());
     }
 
+    //print indent
+    public static void printi(Object... args)
+    {
+        StringBuilder result = new StringBuilder();
+        for (Object arg : args)
+        {
+            result.append(arg);  // Convert each argument to string
+        }
+        System.out.print("\t" + result.toString());
+    }
+
     //printf                          P.S. : WHYYY IS IT SO EASY
     public static void printf(String format, Object... args) {
         System.out.print(String.format(format, args));
