@@ -23,7 +23,7 @@ public class ChanceRunner {
         System.out.println("Random integer between 1 and 10: " + Chance.getRandom(1, 10));
         System.out.println("Random integer between 100 and 200: " + Chance.getRandom(100, 200));
 
-        System.out.println("        End of Demo Program           ");
+        System.out.println("End of Demo Program");
     }
 }
 
