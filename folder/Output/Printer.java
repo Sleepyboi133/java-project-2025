@@ -24,6 +24,6 @@ public class Printer {
 
     //printf                          P.S. : WHYYY IS IT SO EASY
     public static void printf(String format, Object... args) {
-        return System.out.print(String.format(format, args));
+        System.out.print(String.format(format, args));
     }
 }
