@@ -2,7 +2,7 @@ public class ChanceRunner {
     public static void main(String[] args) {
         System.out.println("Chance Class Method Demo");
         
-        //roll method 'decimal probability' (0.0 - 1.0)
+        //roll method 'decimal probability' [0.0 - 1.0]
         System.out.println("\n--- Testing roll(double probability) ---");
         System.out.println("Rolling with 0.5 probability (50% chance): " + Chance.roll(0.5));
         System.out.println("Rolling with 1.0 probability (100% chance): " + Chance.roll(1.0));
@@ -23,10 +23,7 @@ public class ChanceRunner {
         System.out.println("Random integer between 1 and 10: " + Chance.getRandom(1, 10));
         System.out.println("Random integer between 100 and 200: " + Chance.getRandom(100, 200));
 
-        // Footer
-        System.out.println("\n=======================================");
         System.out.println("        End of Demo Program           ");
-        System.out.println("=======================================");
     }
 }
 
