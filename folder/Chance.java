@@ -8,6 +8,7 @@ public class Chance {
         if (probability < 0.0 || probability > 1.0) {
             throw new IllegalArgumentException("Probability must be between 0.0 and 1.0");
         }
+        // If probability is 1.0, always return true (100% chance)
         return random.nextDouble() < probability;
     }
 
@@ -16,15 +17,19 @@ public class Chance {
         if (probability < 0 || probability > 100) {
             throw new IllegalArgumentException("Probability must be between 0 and 100");
         }
+        // If probability is 100, always return true (100% chance)
+        if (probability == 100) {
+            return true;
+        }
         return random.nextInt(100) < probability;
     }
 
-    // Get a random double between 0.0 (inclusive) and 1.0 (exclusive)
+    // Get a random double between [0, 1)
     public static double getRandom() {
-        return random.nextDouble(); // Already returns a value in the range [0, 1)
+        return random.nextDouble();
     }
 
-    // Get a random int between min and max (inclusive)
+    // Get a random int between [min, max]
     public static int getRandom(int min, int max) {
         if (min > max) {
             throw new IllegalArgumentException("Min cannot be greater than max");
