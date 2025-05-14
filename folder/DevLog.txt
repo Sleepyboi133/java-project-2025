@@ -23,7 +23,8 @@ as of 5/12/25
 5/12/25: (Start)
     brain storm and chose a project. started to work on files 
         main set up done.
-
+5/14/25:
+    worked out all of the chance class
 
 
 
