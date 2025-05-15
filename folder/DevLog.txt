@@ -28,6 +28,7 @@ as of 5/12/25
     printer class done
 5/15/25:
     reaseched on how to create a packege to import my library
+    added a info method to Printer
 
 
 
