@@ -20,16 +20,18 @@ as of 5/12/25
 
 //--DevLog--// /*
 
-5/12/25: (Start)
+5/12/25: (Start) - 1h 40m
     brain storm and chose a project. started to work on files 
         main set up done.
-5/14/25:
+5/14/25: - 1h 40m
     worked out all of the chance class and runner
     printer class done
-5/15/25:
+5/15/25: - 2h 30m
     reaseched on how to create a packege to import my library
-    added a info method to Printer
-
+    added a getInfo method to Printer
+    debuged all files
+    added getInfo method to Chance
+    Seperated rest of classes into folders
 
 
 
