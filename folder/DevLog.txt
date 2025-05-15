@@ -26,6 +26,8 @@ as of 5/12/25
 5/14/25:
     worked out all of the chance class and runner
     printer class done
+5/15/25:
+    reaseched on how to create a packege to import my library
 
 
 
