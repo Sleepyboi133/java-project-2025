@@ -63,41 +63,10 @@ public class Chance {
         printi("Call: Chance.getRandom(min, max);\n");
         printii("returns a double value from [min-max]\n\n");
 
+        printi("getInfo();\n");
+        printi("Call: Printer.getInfo();\n");
+        printii("Will print a decription of the Printer class and method definitions.\n");
         
-        
-
         println("____________________________________________________________________");
     }
-}
-
-/*
-____________________________________________________________________
---Printer Class--
-    Custom short cuts for print related outputs
-____________________________________________________________________
-Methods:
-    print(...);
-    Call: Printer.print();
-        Will print the same output as 'System.out.print()' would.
-        Used as a short cut.
-        
-    println(...);
-    Call: Printer.println();
-        Will print the same output as 'System.out.println()' would.
-        Used as a short cut.
-        
-    printi(...);
-    Call: Printer.printi();
-        Will print the same output as 'System.out.print()' but with
-        an added '\t' at the begining for indenting text.
-
-    printf(String, ...);
-    Call: Printer.printf();
-        Will print a formated string and working univeraly.
-
-    getInfo();
-    Call: Printer.getInfo();
-        will print a decription of the Printer class and method definitions.
-____________________________________________________________________
-*/     
 }
