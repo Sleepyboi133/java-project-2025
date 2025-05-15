@@ -47,26 +47,24 @@ public class Chance {
         
         printi("roll(double);\n");
         printi("Call: Chance.roll();\n");
-        printi("\ireturns boolean value of double% chance.\n");
-        printi("\iUsed as a short cut.\n\n");
+        printii("returns boolean value of 'double' precent chance.\n");
+        printii("Used as a short cut.\n\n");
 
-        printi("println(...);\n");
-        printi("Call: Printer.println();\n");
-        printi("\iWill print the same output as 'System.out.println()' would.\n");
-        printi("\iUsed as a short cut.\n\n");
+        printi("roll(int);\n");
+        printi("Call: Chance.roll();\n");
+        printii("returns boolean value of 'int' precent chance.\n");
+        printii("Used as a short cut.\n\n");
 
-        printi("printi(...);\n");
-        printi("Call: Printer.printi();\n");
-        printi("\iWill print the same output as 'System.out.print()' but with\n");
-        printi("\ian added '\t' at the begining for indenting text.\n\n");
+        printi("getRandom();\n");
+        printi("Call: Chance.getRandom();\n");
+        printii("returns a double value from [0-1)\n\n");
 
-        printi("printf(String, ...);\n");
-        printi("Call: Printer.printf();\n");
-        printi("\iWill print a formated string and working univeraly.\n");
+        printi("getRandom(int min, int max);\n");
+        printi("Call: Chance.getRandom(min, max);\n");
+        printii("returns a double value from [min-max]\n\n");
 
-        printi("getInfo();\n");
-        printi("Call: Printer.getInfo();\n");
-        printi("\iWill print a decription of the Printer class and method definitions.\n");
+        
+        
 
         println("____________________________________________________________________");
     }
