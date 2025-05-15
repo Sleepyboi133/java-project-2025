@@ -79,7 +79,7 @@ public class Printer {
 
         printi("printf(String, ...);\n");
         printi("Call: Printer.printf();\n");
-        printii("Will print a formated string and working univeraly.\n");
+        printii("Will print a formated string and working univeraly.\n\n");
 
         printi("getInfo();\n");
         printi("Call: Printer.getInfo();\n");
