@@ -33,6 +33,17 @@ public class Printer {
         print("\t" + result.toString());
     }
 
+    //print indent * 2
+    public static void printii(Object... args)
+    {
+        StringBuilder result = new StringBuilder();
+        for (Object arg : args)
+        {
+            result.append(arg);  // Convert each argument to string
+        }
+        print("\t\t" + result.toString());
+    }
+
     //printf                          P.S. : WHYYY IS IT SO EASY
     public static void printf(String format, Object... args) {
         print(String.format(format, args));
@@ -48,26 +59,31 @@ public class Printer {
         
         printi("print(...);\n");
         printi("Call: Printer.print();\n");
-        printi("\iWill print the same output as 'System.out.print()' would.\n");
-        printi("\iUsed as a short cut.\n\n");
+        printii("Will print the same output as 'System.out.print()' would.\n");
+        printii("Used as a short cut.\n\n");
 
         printi("println(...);\n");
         printi("Call: Printer.println();\n");
-        printi("\iWill print the same output as 'System.out.println()' would.\n");
-        printi("\iUsed as a short cut.\n\n");
+        printii("Will print the same output as 'System.out.println()' would.\n");
+        printii("Used as a short cut.\n\n");
 
         printi("printi(...);\n");
         printi("Call: Printer.printi();\n");
-        printi("\iWill print the same output as 'System.out.print()' but with\n");
-        printi("\ian added '\t' at the begining for indenting text.\n\n");
+        printii("Will print the same output as 'System.out.print()' but with\n");
+        printii("an added indent at the begining for indenting text.\n\n");
+
+        printi("printii(...);\n");
+        printi("Call: Printer.printii();\n");
+        printii("Will print the same output as 'System.out.print()' but with\n");
+        printii("2 added indents at the begining for indenting text.\n\n");
 
         printi("printf(String, ...);\n");
         printi("Call: Printer.printf();\n");
-        printi("\iWill print a formated string and working univeraly.\n");
+        printii("Will print a formated string and working univeraly.\n");
 
         printi("getInfo();\n");
         printi("Call: Printer.getInfo();\n");
-        printi("\iWill print a decription of the Printer class and method definitions.\n");
+        printii("Will print a decription of the Printer class and method definitions.\n");
 
         println("____________________________________________________________________");
     }
@@ -93,6 +109,11 @@ Methods:
     Call: Printer.printi();
         Will print the same output as 'System.out.print()' but with
         an added '\t' at the begining for indenting text.
+        
+    printii(...);
+    Call: Printer.printii();
+        Will print the same output as 'System.out.print()' but with
+        an added '\t\t' at the begining for indenting text.
 
     printf(String, ...);
     Call: Printer.printf();
