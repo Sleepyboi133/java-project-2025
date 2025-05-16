@@ -32,6 +32,8 @@ as of 5/12/25
     debuged all files
     added getInfo method to Chance
     Seperated rest of classes into folders
+5/16/35: - 10m
+    made counter class (DEBUG!!!!)
 
 
 
