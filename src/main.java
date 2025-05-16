@@ -2,11 +2,11 @@
 
 package scr;
 
-import com.example.MyPackage.MyClass; // Import MyClass from the package
+import utils.custom;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to my Java project!");
-        MyClass.greet(); // Call the greet method from MyClass
+        custom.greet(); // Call the greet method from MyClass
     }
 }
