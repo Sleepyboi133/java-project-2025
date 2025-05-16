@@ -1,1 +1,5 @@
-
+/*
+sort methods using coloection
+swap functions
+print list or toString
+*/
