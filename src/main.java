@@ -1,6 +1,6 @@
 // src/Main.java
 
-package com.example;
+package scr;
 
 import com.example.MyPackage.MyClass; // Import MyClass from the package
 
