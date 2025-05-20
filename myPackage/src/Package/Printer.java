@@ -1,3 +1,5 @@
+package Package;
+
 public class Printer {
 
     //print
