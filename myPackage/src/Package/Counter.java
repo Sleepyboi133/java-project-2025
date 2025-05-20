@@ -1,6 +1,6 @@
 package Package;
 
-class Counter {
+public class Counter {
   public int count;
 
   // init 0
