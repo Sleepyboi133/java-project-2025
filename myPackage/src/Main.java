@@ -4,6 +4,6 @@ import Package.*; // * will import all
 
 public class Main {
     public static void main(String[] args) {
-        // 
+        Printer.println("hello world");
     }
 }
