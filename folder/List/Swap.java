@@ -1,29 +1,27 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
-public static void swap(ArrayList<T> list) //T represents all types
+// public class List { //rename
+//     public static void main(String[] args) {
+//         ArrayList<String> list = new ArrayList<>();
+//         list.add("A");
+//         list.add("B");
+//         list.add("C");
+//         list.add("D");
+
+//         System.out.println("Original list: " + list);
+
+//         // Swap elements at index 1 and 3
+//         swap(list, 1, 3);
+
+//         System.out.println("List after swapping: " + list);
+//     }
+// }
+
+public static void swap(ArrayList<T> list, int indexA, int indexB)
 {
-  for (T element : list)
-  {
-        // Process each element
-        System.out.println(element);
-  }
-
+  Collections.swap(list, indexA, indexB);
 }
-
-public static swap()
-{
-    
-
-
-}
-
-public <T> void processList(ArrayList<T> list) {
-    for (T element : list) {
-        // Process each element
-        System.out.println(element);
-    }
-}
-
 
 public static void print(ArrayList<T> list) // ArrayList print
 {
