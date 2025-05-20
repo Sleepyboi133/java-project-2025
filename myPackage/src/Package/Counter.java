@@ -1,3 +1,5 @@
+package Package;
+
 class Counter {
   public int count;
 
