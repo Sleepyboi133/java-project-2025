@@ -1,1 +1,46 @@
+--//
+
+// librairy
+/*
+1- make a imprtable class that hold custom functions
+2- write func's 
+    - print
+    -printf
+    -sort
+3- make importable in vs
+4- make tostring with a dict of functions and uses
+5- test
+
+6- YYYYAAAAAAAAAAAYYYYYYYYYY
+
+as of 5/12/25
+*/
+
+
+
+//--DevLog--// /*
+
+5/12/25: (Start) - 1h 40m
+    brain storm and chose a project. started to work on files 
+        main set up done.
+5/14/25: - 1h 40m
+    worked out all of the chance class and runner
+    printer class done
+5/15/25: - 2h 30m
+    reaseched on how to create a packege to import my library
+    added a getInfo method to Printer
+    debuged all files
+    added getInfo method to Chance
+    Seperated rest of classes into folders
+5/16/25: - 1h 50m
+    made counter class (DEBUG!!!!)
+    struggled to undersand packages and wrote some tests
+5/17/25: - 3h
+  leared packages and started to clean up code
+5/20/25: - 1h 40m
+  wrote most of the list class
+  changed all of the file locations 
+
+
+//--DevLog--// */
 
