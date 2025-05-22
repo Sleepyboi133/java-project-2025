@@ -21,6 +21,8 @@ import java.util.Collections;
 public static void swap(ArrayList<T> list, int indexA, int indexB)
 {
   Collections.swap(list, indexA, indexB);
+  //place holder
+    //make sure take T type
 }
 
 public static void print(ArrayList<T> list) // ArrayList print

@@ -13,6 +13,18 @@ public class Printer {
         System.out.print(result.toString());
     }
 
+    //print reversed
+    public static void printr(Object... args)
+    {
+        StringBuilder result = new StringBuilder();
+        for (Object arg : args)
+        {
+            result.append(arg);  // Convert each argument to string
+        }
+        result.reverse();
+        System.out.print(result.toString());
+    }
+
     //println
     public static void println(Object... args)
     {
