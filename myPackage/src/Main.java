@@ -1,3 +1,5 @@
+// great tutoral video https://www.youtube.com/watch?v=Bua6LQO2vQ8
+
 package scr; //if wanting to use main as package to import to work as the runner.
 
 import Package.*; // * will import all
